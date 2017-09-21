@@ -1,0 +1,28 @@
+/*
+Theme Name: Bloody
+Author: Paul Schaefer
+Author URI: https://paulmakesthe.net/
+Version: 1.0.0
+*/
+@charset 'UTF-8';
+.blood {
+	color: rgb(238, 51, 36);
+}
+.bg-blood {
+	background-color: rgb(238, 51, 36);
+}
+.b--blood {
+	border-color: rgb(238, 51, 36);
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+#header {
+	background-image: linear-gradient(black, transparent);
+}
