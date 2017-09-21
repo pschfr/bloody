@@ -10,9 +10,8 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 
 // Enqueues necessary CSS
 function theme_enqueue_styles() {
-	wp_enqueue_style('tachyons', 'https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.8.1/tachyons.min.css');
 	wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-	wp_enqueue_style('main', get_template_directory_uri().'/style.css');
+	wp_enqueue_style('main', get_template_directory_uri().'/includes/css/style.css');
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', 11);
 

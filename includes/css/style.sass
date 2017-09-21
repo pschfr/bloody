@@ -1,0 +1,25 @@
+// My variables
+$color-blood: rgb(238, 51, 36)
+
+// Imports my custom build of Tachyons
+@import 'tachyons'
+
+// Tachyons-style color classes
+.blood
+	color: $color-blood
+.bg-blood
+	background-color: $color-blood
+.b--blood
+	border-color: $color-blood
+
+// Much better system sans-serif stack
+body
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+
+a
+	color: inherit
+	&:hover, &:focus
+		color: $color-blood
+
+#header
+	background-image: linear-gradient(black, transparent)
